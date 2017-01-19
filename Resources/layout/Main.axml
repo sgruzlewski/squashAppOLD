@@ -91,4 +91,56 @@
         android:id="@+id/textServe"
         android:gravity="center"
         android:paddingTop="20dp" />
+    <Button
+        android:text="Start New Game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newGame"
+        android:layout_marginTop="20dp"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:visibility="invisible" />
+    <TextView
+        android:text="SET SCORE"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/setScoreDisp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:gravity="center" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:text="0"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/setScore1"
+            android:layout_marginLeft="70dp"
+            android:width="50dp"
+            android:maxWidth="50dp"
+            android:gravity="center" />
+        <TextView
+            android:text="-"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/setSeparator"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_marginLeft="50dp" />
+        <TextView
+            android:text="0"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/setScore2"
+            android:layout_marginLeft="50dp"
+            android:gravity="center"
+            android:width="50dp"
+            android:maxWidth="50dp" />
+    </LinearLayout>
 </LinearLayout>

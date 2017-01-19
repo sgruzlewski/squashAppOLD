@@ -59,11 +59,26 @@ namespace squashApp
 			// aapt resource value: 0x7f050007
 			public const int linearLayout3 = 2131034119;
 			
+			// aapt resource value: 0x7f05000b
+			public const int newGame = 2131034123;
+			
 			// aapt resource value: 0x7f050008
 			public const int remScore1 = 2131034120;
 			
 			// aapt resource value: 0x7f050009
 			public const int remScore2 = 2131034121;
+			
+			// aapt resource value: 0x7f05000d
+			public const int setScore1 = 2131034125;
+			
+			// aapt resource value: 0x7f05000f
+			public const int setScore2 = 2131034127;
+			
+			// aapt resource value: 0x7f05000c
+			public const int setScoreDisp = 2131034124;
+			
+			// aapt resource value: 0x7f05000e
+			public const int setSeparator = 2131034126;
 			
 			// aapt resource value: 0x7f050004
 			public const int textScore1 = 2131034116;
